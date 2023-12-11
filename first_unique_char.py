@@ -12,8 +12,7 @@ First Unique Character
 """
 class Solution:
     def firstUniqChar(self, s: str) -> int:
-
-            
+       
         hash_s = {}
             
         for letter in s:
@@ -26,6 +25,8 @@ class Solution:
             if hash_s[h] == 1:
                 return s.index(h)
         return -1
-
+    
 solution = Solution()
 print(solution.firstUniqChar('aabb'))
+print(solution.firstUniqChar('leetcode'))
+print(solution.firstUniqChar('loveleetcode'))

@@ -1,4 +1,4 @@
-contains_duplicate.py
+contains_duplicate_II.py
 design_liked_list.py
 valid_sudoku.py
 pruebas.py
@@ -9,3 +9,6 @@ linked_cycle_II.py
 group_anagrams.py
 intersection_two_arrays_II.py
 merge_two_sorted_linked_list_mergesort.py
+design_trie.py
+/Resueltos utilizando metodos
+longest_common_prefix.py
